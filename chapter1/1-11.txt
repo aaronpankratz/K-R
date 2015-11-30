@@ -1,0 +1,10 @@
+How would you test the word count program?
+Write some unit tests that ensure the word count program produces the correct output for specific test cases.
+I would start with the following test cases.
+-program returns zero word count for no input and input that contains only blanks, newlines, or tabs
+-program returns correct word count for words separated by newlines
+-program returns correct word count for words separated by tabs
+-program returns correct word count for words separated by blanks
+
+What kinds of inputs are most likely to uncover bugs, if there are any?
+inputs with a very large number of characters, newlines, and words will cause the int counters to overflow.
